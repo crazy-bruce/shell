@@ -26,7 +26,7 @@ delete_expired() {
     num=`ls -l $backup_save_dir | grep -E "*tiger*" | wc -l`
 
     if [ $num -gt 4 ];then
-	    echo "cdpQa123" | sudo -S rm -rf $backup_save_dir/`ls -l $backup_save_dir | grep -E "*tiger*" | head -n 1 | awk '{print $NF}' | xargs`
+	    rm -rf $backup_save_dir/`ls -l $backup_save_dir | grep -E "*tiger*" | head -n 1 | awk '{print $NF}' | xargs`
 	    echo -e "\033[32m The backup successful \033[0m"
     fi
 }
