@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # Author: Bruce Chen
 # Create Time: 2021.06.18
-# E-mail: BYchen@sonicwall.com
 # Version: 1.0
 # description: backup data and delete expired data
 
