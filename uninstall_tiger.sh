@@ -4,8 +4,9 @@
 # Version: 1.0
 # description: uninstall tiger
 
-# global variables
 
+
+# global variables
 tiger_code_dir="/home/bruce/tiger"
 tiger_install_dir="/opt"
 tiger_tools_dir="/usr/local/bin"
@@ -75,4 +76,5 @@ if [ -d "tiger-1.9.0.egg-info/" ];then
     rm -rf tiger-1.9.0.egg-info/
 fi
 
+# log
 echo "uninstall tiger successfully!"
